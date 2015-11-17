@@ -1,0 +1,289 @@
+body
+{
+	background-color: #303030;
+	color: white;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+.glowny
+{
+	margin:auto;
+	width:1000px;
+}
+
+#tytul
+{
+	font-size:38px;
+	font-weight:700;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+#formularz 
+{	
+	margin: auto;
+	padding:10px;
+	width: 380px;
+	text-align:right;
+	background-color:#666666;
+}
+#formularz input
+{
+	margin:3px;
+}
+
+#formularz label
+{
+	margin:5px;
+	font-size: 16px;
+}
+
+.blad
+{
+	color:red;
+	font_size: 16px;
+	
+}
+
+#formularz2 
+{	
+	margin: auto;
+	margin-top:15px;
+	padding:10px;
+	width: 380px;
+	text-align:center;
+	background-color:#666666;
+}
+#formularz2 input
+{
+	padding: 5px;	
+}
+
+#pojm
+{
+	width:300px;
+	margin:0 auto;
+	background-color:#666666;
+}
+
+#formularz3 
+{	
+	margin:0 auto;
+	width: 220px;
+	padding:10px;
+	background-color:#666666;
+}
+
+#formularz3 input
+{
+	width:200px;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#formularz3 textarea
+{
+	padding:0;
+	margin:0;
+	width:210px;
+	resize:vertical;
+	max-height:60px;
+	margin-bottom:10px;
+}
+
+#formularz3 label
+{
+	margin:5px;
+	font-size: 16px;
+	display:block;
+}
+
+#formularz3 input[type="submit"]
+{
+	width: 210px;
+	padding:5px;
+}
+
+
+#naglowek
+{
+	text-align:center;
+	margin-top:20px;
+	font-size:35px;
+	color:orange;
+}
+
+#komunikat
+{
+	margin:auto;
+	width:400px;
+	margin-top: 40px;
+	text-align:center;
+}
+
+.kafelek1
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#0A6A8A;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek1:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#084868;
+}
+
+.kafelek2
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#108A0A;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek2:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#006808;
+}
+.kafelek3
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#E26D22;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek3:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#D04B00;	
+}
+.kafelek4
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#84088A;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek4:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#620668;
+	
+}
+.kafelek5
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#F50C0C;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek5:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#C20909;
+	
+}
+.kafelek6
+{
+	margin-left:40px;
+	margin-top:40px;
+	width:300px;
+`	height:200px;
+	background-color:#F2DF0F;
+	color:white;
+	text-align:center;
+	
+}
+
+.kafelek6:hover
+{
+	width:320px;
+	height:220px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:#D0BD0D;
+	
+}
+
+a.link
+{
+	text-decoration:none;
+	color: white;
+    display:block;
+	width:300px;
+	height:150px;
+	padding-top:50px;
+}
+
+a.link:hover
+{
+	width:320px;
+	height:165px;
+	padding-top:55px;
+	font-size:25px;
+}
+
+.con
+{
+	margin-left: auto;
+	margin-right:auto;
+	float:left;
+	width:400px;
+	height:300px;
+}
+
+#pojemnik
+{
+	width:1200px;
+	margin:auto;
+}
+
+.nagl
+{
+	text-align:center;
+	margin-top:20px;
+	font-size:35px;
+	color:orange;
+}
