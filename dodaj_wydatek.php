@@ -1,16 +1,39 @@
+<?php
+session_start();
+if(isset($_GET['kat'])) $kateg=$_GET['kat'];
+$_SESSION ["ID_kat"]=$kateg;
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
-<title> Wydatek </title>
+<title>Szczegóły wydatku</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 </head>
-<body>
-<div class="glowny">
-<div id="tytul"> Dodaj szczegoly wydatku </div>
+<body style="background-color: #517d98; background-image: url(images/pieniadze.jpg); background-repeat: no-repeat">
+	<div style="display: inline; height: 30px;">
+<div style="color: #ffffff;font-family: Verdana; font-size: 20px; margin-left: 20px; margin-top: 20px;"> Dodaj szczegóły wydatku ... </div>
 
-<?php
-session_start();
-?>
+<div style="width: 10px; height: 10px; margin-left: 500px;">
+	<i class=
+	<?php 
+	if($kateg==1)
+	echo "icon-basket";
+		if($kateg==2)
+		echo "icon-glass";
+			if($kateg==3)
+			echo "icon-cab";
+				if($kateg==4)
+				echo "icon-wrench";
+					if($kateg==5)
+					echo "icon-dollar";
+						if($kateg==6)
+						echo "icon-help-circled";
+	?>
+	> 
+	</i>
+</div>
+</div>
 
 <div id="pojm">
 <div id="formularz3">
@@ -29,11 +52,6 @@ session_start();
 * - pola nieobowiazkowe
 </form>
 </div>
-</div>
-<?php
-if(isset($_GET['kat'])) $kateg=$_GET['kat'];
-$_SESSION ["ID_kat"]=$kateg;
-?>
 </div>
 </body>
 </html>

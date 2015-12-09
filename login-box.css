@@ -37,6 +37,14 @@
 	margin:0 0 7px 0;
 }
 
+#tabelabox
+{
+    width: 1200px;
+    padding: 25px;
+    border: 2px solid #0080BF;
+    margin-left: 50px;
+    margin-top: 100px;
+}
 
 .form-login  {
 	width: 205px;

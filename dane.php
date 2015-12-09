@@ -19,5 +19,5 @@ if (!mysqli_query($polaczenie, $sql))
 }
 
 $polaczenie->close();
-header ('Location: index.php');
+header ('Location: index.html');
 ?>

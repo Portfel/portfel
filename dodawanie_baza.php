@@ -21,5 +21,5 @@ if (!mysqli_query($polaczenie, $sql))
 }
 
 $polaczenie->close();
-header ('Location: index.html');
+header ('Location: glowny.php');
 ?>

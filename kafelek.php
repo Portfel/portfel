@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title> rejestracja </title>
+<title>Wybierz kategorię</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="css/fontello.css" type="text/css" />
 </head>
-<body>
-<div class="nagl"> Wybierz kategorie zakupu </div>
+<body style="background-color: #517d98; background-image: url(images/pieniadze.jpg); background-repeat: no-repeat">
+<div style="color: #ffffff;font-family: Verdana; font-size: 20px; margin-left: 20px; margin-top: 20px;"> Wybierz kategorię zakupu ... </div>
 <div id="pojemnik">
 <div class="con">
 <div class="kafelek1">
@@ -40,7 +40,7 @@
 <div class="con">
 <div class="kafelek5">
 	<a href="dodaj_wydatek.php?kat=5" class="link">
-		<i class="icon-dollar"> </i> </br>Rozrywka
+		<i class="icon-dollar"> </i> </br>Rachunki
 	</a>
 </div>
 </div>
